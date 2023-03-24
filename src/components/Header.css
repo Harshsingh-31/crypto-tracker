@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    gap:17rem;
+    height: 6rem;
+    justify-content: center;
+    color:rgb(243, 242, 244);
+    align-items: center;
+    background-color: rgb(19, 7, 73);
+}
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 3.6rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(243, 242, 244);
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-right: 3rem;
+}
+li:hover{
+    color:  rgb(186, 4, 183);
+    color:  rgb(182, 4, 179);
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 9px;
+}
+.twitter-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.twitter-icon:hover{
+    color: rgb(186, 4, 183);
+}

@@ -1,0 +1,48 @@
+.Home{
+    background-image: linear-gradient(0deg, rgb(15, 5, 29) 30%, rgb(19, 7, 73) 70%);
+}
+.Home-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 6rem;
+}
+.home-img{
+    width: 4rem;
+    height: 4rem;
+    padding-top: 1rem;
+    animation-name: updown;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.Homeh1{
+    font-size: 6rem;
+    font-weight: 650;
+    color:rgb(243, 242, 244);
+}
+.Homeh2{
+    font-size: 6rem;
+    font-weight: 650;
+    text-align: center;
+    color: rgb(53, 17, 214);
+}
+.sp{
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
+    color: transparent;
+}
+@keyframes updown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
