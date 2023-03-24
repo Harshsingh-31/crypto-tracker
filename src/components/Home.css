@@ -1,0 +1,76 @@
+.Home{
+   display: flex;
+}
+.home-text{
+   margin-top: 8rem;
+   margin-left: 5rem;
+}
+h4{
+   color: #010103;
+   font-family: Rubik,sans-serif;
+   font-size: 1.5rem;
+   padding-left: 4px;
+   font-weight: 850;
+}
+h1{
+   color: #010103;
+   font-family: Poppins,sans-serif;
+   font-size: 3.2rem;
+   font-weight: 1000;
+   line-height: 0.5;
+   margin-bottom: 2.3rem;
+   margin-top: 1rem;
+}
+span{
+   color:#ff4d30
+}
+p{
+   color: #706f7b;
+    font-family: Rubik,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 4rem;
+    width: 35rem;
+}
+
+.btn_book-ride{
+   text-decoration: none;
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: white;
+   background-color: #ff4d30;
+   border-radius: 3px;
+   padding: 0.6rem 1.5rem;
+   margin-left: 4rem;
+   box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+   transition: all .3s;
+}
+.btn_book-ride:hover{
+   box-shadow: 10px 10px 15px 10px rgba(250, 44, 3, 0.35);
+}
+.btn-learnmore{
+   text-decoration: none;
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: white;
+   background-color: black;
+   border-radius: 3px;
+   padding: 0.6rem 1.5rem;
+   margin-left: 2rem;
+}
+.btn-learnmore:hover{
+   background-color: white;
+   color: black;
+   border: #010103 1px solid;
+}
+.bgimg{
+   position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.maincar{
+   width: 92%;
+   position: relative;
+   top:4rem;
+}

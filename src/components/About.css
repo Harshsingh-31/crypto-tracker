@@ -1,0 +1,27 @@
+.about{
+    text-align: center;
+}
+.h11{
+    font-weight: 700;
+}
+.about-c{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding-top: 3.5rem;
+   }
+.pp{
+    font-size: 1rem;
+    width: 15rem;
+    padding-left: 2rem;
+}
+.about-content{
+    width: 20%;
+    margin: 2rem;
+}
+.h33{
+    font-size: 1.7rem;
+}
+.imggg{
+    width: 40%;
+}
